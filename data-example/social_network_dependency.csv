@@ -1,0 +1,14 @@
+parent,child
+compose-post-service,media-service
+compose-post-service,post-storage-service
+compose-post-service,home-timeline-service
+compose-post-service,user-service
+compose-post-service,text-service
+compose-post-service,unique-id-service
+compose-post-service,user-timeline-service
+home-timeline-service,post-storage-service
+home-timeline-service,social-graph-service
+nginx-web-server,user-service
+nginx-web-server,social-graph-service
+text-service,user-mention-service
+text-service,url-shorten-service

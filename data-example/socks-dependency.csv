@@ -1,0 +1,9 @@
+parent,child
+front-end,catalogue
+front-end,user
+front-end,orders
+front-end,carts
+orders,payment
+orders,user
+orders,shipping
+orders,carts
